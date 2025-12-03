@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurantly</title>
+    <link rel="stylesheet" href="./assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/plugins/bootstrap/bootstrap-icons/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./assets/plugins/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- header block -->
+    <header>
+        <div class="navbar navbar-expand-md">
+
+            <!-- fluid container for mobile -->
+            <div class="container-fluid px-4 d-md-none">
+                <a href="./index.html" class="navbar-brand">
+                    <h3 class="text-primary mb-0">Insurantly</h3>
+                </a>
+
+                <div class="d-flex align-items-center gap-4">
+                    <i class="fa-solid fa-magnifying-glass text-white fs-4"></i>
+                    <i class="bi bi-cart3 text-white fs-4"></i>
+                    <span data-bs-toggle="collapse" data-bs-target="#navbarToggle" aria-controls="navbarToggle"
+                        aria-expanded="false">
+                        <i class="bi bi-filter-right text-white fs-4"></i>
+                    </span>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbarToggle">
+                    <div class="me-md-auto ms-md-5 text-center">
+                        <ul class="navbar-nav mx-auto mb-2 mb-md-0 gap-4">
+                            <li class="nav-item">
+                                <a href="./index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#Product">Product</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#Pricing">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#Contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- container for desktop -->
+            <div class="container d-md-flex d-none">
+                <a href="./index.html" class="navbar-brand">
+                    <h3 class="text-primary mb-0">Insurantly</h3>
+                </a>
+
+                <div class="me-auto ms-5 text-center">
+                    <ul class="navbar-nav mx-auto gap-4">
+                        <li class="nav-item">
+                            <a href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Product">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Pricing">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="d-flex gap-5 align-items-center ms-auto">
+                    <a href="#">Login</a>
+                    <a href="#" class="btn btn-primary bg-primary border-0">Become a member
+                        <i class="fa-solid fa-arrow-right ms-3"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- main block -->
+    <main>
+        <!-- hero section -->
+        <section class="hero-section">
+            <div class="container text-white">
+                <div class="text-md-start text-center">
+                    <h1 class="mb-0">We Ensure A Best <br> Insurance Service</h1>
+                    <p class="p-lg my-4 py-2">We know how large objects will act, <br> but things on a small scale.
+                    </p>
+                    <div class="d-flex gap-2 flex-md-row flex-column">
+                        <button type="button" class="btn btn-primary bg-primary border-0 rounded-pill">Get Quote
+                            Now</button>
+                        <button type="button" class="btn btn-outline-light rounded-pill mt-md-0 mt-3">Learn
+                            More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- feature section -->
+        <section class="feature-section bg-info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-12">
+                        <div class="py-4 px-auto">
+                            <div class="text-center text-white">
+                                <div class="d-md-block d-none">
+                                    <i class="bi bi-wallet text-primary"></i>
+                                </div>
+                                <div class="d-md-none d-block">
+                                    <i class="bi bi-aspect-ratio text-primary"></i>
+                                </div>
+                                <h2 class="small-heading mt-3">Peace of Mind</h2>
+                                <p>So it really behaves like neither. <br> Now we have given up. </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-12">
+                        <div class="py-4 px-auto">
+                            <div class="text-center text-white">
+                                <div class="d-md-block d-none">
+                                    <i class="bi bi-bookmarks text-primary"></i>
+                                </div>
+                                <div class="d-md-none d-block">
+                                    <i class="bi bi-aspect-ratio text-primary"></i>
+                                </div>
+                                <h2 class="small-heading mt-3">Set For Life</h2>
+                                <p>They were used to create the <br> machines that launched </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-12">
+                        <div class="py-4 px-auto">
+                            <div class="text-center text-white">
+                                <div class="d-md-block d-none">
+                                    <i class="bi bi-people text-primary"></i>
+                                </div>
+                                <div class="d-md-none d-block">
+                                    <i class="bi bi-aspect-ratio text-primary"></i>
+                                </div>
+                                <h2 class="small-heading mt-3">100% Satisfaction</h2>
+                                <p>So it really behaves like neither. <br> Now we have given up. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- card section  -->
+        <section class="card-section">
+            <div class="container">
+                <div class="text-center text-white">
+                    <h2 class="d-md-block d-none">Industry</h2>
+                    <h2 class="d-md-none d-block">What Clients Say</h2>
+                    <p>Problems trying to resolve the conflict between <br> the two major realms of Classical physics:
+                        Newtonian mechanics </p>
+                </div>
+                <div class="row gx-4 mt-5 pt-3">
+                    <div class="col-md-6 col-12">
+                        <div class="py-4 my-2 pe-md-4 ps-md-5 px-0">
+                            <div class="bg-white review-box">
+                                <img src="./assets/images/designer-1.png" alt="Avatar"
+                                    class="rounded-circle review-avatar d-md-block d-none">
+                                <h3 class="text-info mb-0">Regina Miles</h3>
+                                <h5 class="text-secondary mb-0">Designer</h5>
+
+                                <div class="d-flex gap-1 align-items-center text-warning my-3">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+
+                                <p class="text-secondary">This proved to be impossible using the traditional
+                                    concepts of space and time. Einstein developed a
+                                    new view of time first and then space. This proved
+                                    to be impossible using the traditional concepts of
+                                    space and time. Einstein developed a new view
+                                    of time first and then space.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-12">
+                        <div class="py-4 my-2 pe-md-4 ps-md-5 px-0">
+                            <div class="bg-white review-box">
+                                <img src="./assets/images/designer-2.png" alt="Avatar"
+                                    class="rounded-circle review-avatar d-md-block d-none">
+                                <h3 class="text-info mb-0">Regina Miles</h3>
+                                <h5 class="text-secondary mb-0">Designer</h5>
+
+                                <div class="d-flex gap-1 align-items-center text-warning my-3">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+
+                                <p class="text-secondary">This proved to be impossible using the traditional
+                                    concepts of space and time. Einstein developed a
+                                    new view of time first and then space. This proved
+                                    to be impossible using the traditional concepts of
+                                    space and time. Einstein developed a new view
+                                    of time first and then space.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- project section -->
+        <section class="project-section bg-info" id="Product">
+            <div class="container-fluid">
+                <div class="text-center text-white">
+                    <h2 class="d-md-block d-none">Industry</h2>
+                    <h2 class="d-md-none d-block">We Are Optimists Who Love To Work Toghether</h2>
+                    <p class="mb-0">Problems trying to resolve the conflict between <br> the two major realms of
+                        Classical physics:
+                        Newtonian mechanics </p>
+                </div>
+
+                <div class="project-cards mt-5 pt-5">
+                    <div class="project-card">
+                        <img src="./assets/images/post-bg-1.png" alt="Project" class="project-img">
+                        <div class="text-white project-content">
+                            <h5>Tax Management</h5>
+                            <p class="p-lg my-3">Life Tips From Top Ten Adventure Travelers</p>
+                            <a href="#" class="btn btn-primary bg-primary border-0 rounded-pill">View Project</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <img src="./assets/images/post-bg-2.png" alt="Project" class="project-img">
+                        <div class="text-white project-content">
+                            <h5>Tax Management</h5>
+                            <p class="p-lg my-3">Life Tips From Top Ten Adventure Travelers</p>
+                            <a href="#" class="btn btn-primary bg-primary border-0 rounded-pill">View Project</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <img src="./assets/images/post-bg-3.png" alt="Project" class="project-img">
+                        <div class="text-white project-content">
+                            <h5>Tax Management</h5>
+                            <p class="p-lg my-3">Life Tips From Top Ten Adventure Travelers</p>
+                            <a href="#" class="btn btn-primary bg-primary border-0 rounded-pill">View Project</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <img src="./assets/images/post-bg-4.png" alt="Project" class="project-img">
+                        <div class="text-white project-content">
+                            <h5>Tax Management</h5>
+                            <p class="p-lg my-3">Life Tips From Top Ten Adventure Travelers</p>
+                            <a href="#" class="btn btn-primary bg-primary border-0 rounded-pill">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- pricing section -->
+        <section class="pricing-section bg-info" id="Pricing">
+            <div class="container">
+                <div class="text-center text-white">
+                    <h2>Pricing</h2>
+                    <p class="mb-0">Problems trying to resolve the conflict between <br> the two major realms of
+                        Classical physics: Newtonian mechanics </p>
+                </div>
+
+                <div class="mt-4 pt-2">
+                    <div class="row py-4">
+                        <div class="col-md-4 col-12">
+                            <div class="bg-white text-info rounded-3 mt-5 pricing-card">
+                                <div class="text-center">
+                                    <h3>FREE</h3>
+                                    <h4 class="text-secondary my-4">Organize across all <br> apps by hand</h4>
+                                    <span class="small-heading text-disabled">
+                                        <h2 class="text-primary mb-0">0$</h2>Per Month
+                                    </span>
+                                </div>
+
+                                <button class="btn btn-primary bg-primary border-0 w-100 my-4">Try for free</button>
+
+                                <div class="pricing-features mt-2">
+                                    <div class="d-flex align-items-center gap-2">
+                                        <i class="bi bi-check2 text-white bg-success"></i>
+                                        <h5 class="mb-0">Unlimited product updates</h5>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-2 my-3">
+                                        <i class="bi bi-check2 text-white bg-success"></i>
+                                        <h5 class="mb-0">Unlimited product updates</h5>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <i class="bi bi-check2 text-white bg-success"></i>
+                                        <h5 class="mb-0">Unlimited product updates</h5>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-2 my-3">
+                                        <i class="bi bi-check2 text-white bg-muted"></i>
+                                        <h5 class="mb-0">1GB Cloud storage</h5>
+                                    </div>
+                                    <div class="d-flex align-items-start gap-2">
+                                        <i class="bi bi-check2 text-white bg-muted"></i>
+                                        <h5 class="mb-0">Email and community support</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-12">
+                            <div class="bg-white text-info rounded-3 mt-5 pricing-card">
+                                <div
+                                    class="new-plan bg-danger text-white rounded-circle d-flex align-items-center justify-content-center">
+                                    <h3 class="mb-0">New</h3>
+                                </div>
+
+                                <div class="text-center">
+                                    <h3>Silver</h3>
+                                    <h4 class="text-secondary my-4">Organize across all <br> apps by hand</h4>
+                                    <span class="small-heading text-disabled">
+                                        <h2 class="text-primary mb-0">9.99$</h2>Per Month
+                                    </span>
+                                </div>
+
+                                <button class="btn btn-primary bg-primary border-0 w-100 my-4">Try for free</button>
+
+                                <div class="pricing-features mt-2">
+                                    <div class="d-flex align-items-center gap-2">
+                                        <i class="bi bi-check2 text-white bg-success"></i>
+                                        <h5 class="mb-0">Unlimited product updates</h5>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-2 my-3">
+                                        <i class="bi bi-check2 text-white bg-success"></i>
+                                        <h5 class="mb-0">Unlimited product updates</h5>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <i class="bi bi-check2 text-white bg-success"></i>
+                                        <h5 class="mb-0">Unlimited product updates</h5>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-2 my-3">
+                                        <i class="bi bi-check2 text-white bg-muted"></i>
+                                        <h5 class="mb-0">1GB Cloud storage</h5>
+                                    </div>
+                                    <div class="d-flex align-items-start gap-2">
+                                        <i class="bi bi-check2 text-white bg-muted"></i>
+                                        <h5 class="mb-0">Email and community support</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-12">
+                            <div class="bg-white text-info rounded-3 mt-5 pricing-card">
+                                <div class="text-center">
+                                    <h3>GOLD</h3>
+                                    <h4 class="text-secondary my-4">Organize across all <br> apps by hand</h4>
+                                    <span class="small-heading text-disabled">
+                                        <h2 class="text-primary mb-0">19.99$</h2>Per Month
+                                    </span>
+                                </div>
+
+                                <button class="btn btn-primary bg-primary border-0 w-100 my-4">Try for free</button>
+
+                                <div class="pricing-features mt-2">
+                                    <div class="d-flex align-items-center gap-2">
+                                        <i class="bi bi-check2 text-white bg-success"></i>
+                                        <h5 class="mb-0">Unlimited product updates</h5>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-2 my-3">
+                                        <i class="bi bi-check2 text-white bg-success"></i>
+                                        <h5 class="mb-0">Unlimited product updates</h5>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <i class="bi bi-check2 text-white bg-success"></i>
+                                        <h5 class="mb-0">Unlimited product updates</h5>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-2 my-3">
+                                        <i class="bi bi-check2 text-white bg-muted"></i>
+                                        <h5 class="mb-0">1GB Cloud storage</h5>
+                                    </div>
+                                    <div class="d-flex align-items-start gap-2">
+                                        <i class="bi bi-check2 text-white bg-muted"></i>
+                                        <h5 class="mb-0">Email and community support</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact section -->
+        <section class="contact-section" id="Contact">
+            <div class="container">
+                <div class="row my-4 py-3">
+                    <div class="col-md-7 col-12">
+                        <div class="text-info mb-4 pb-3">
+                            <p class="small-heading mb-0">Contact Us</p>
+                            <h2 class="mb-0">Make an Appointment</h2>
+                        </div>
+
+                        <form action="#" method="post">
+                            <div class="row">
+                                <div class="col-md-6 col-12">
+                                    <div class="mb-md-0 mb-3">
+                                        <input type="text" name="fullname" id="fullname" placeholder="Full Name *"
+                                            class="form-control" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-12">
+                                    <input type="email" name="email" id="email" placeholder="Email *"
+                                        class="form-control" required>
+                                </div>
+                            </div>
+
+                            <div class="row my-3">
+                                <div class="col-md-6 col-12">
+                                    <div class="mb-md-0 mb-3 position-relative">
+                                        <select class="form-control">
+                                            <option value="Please Select">Please Select</option>
+                                            <option value="28 Aug">28 Aug</option>
+                                            <option value="29 Aug">29 Aug</option>
+                                            <option value="30 Aug">30 Aug</option>
+                                        </select>
+                                        <i class="bi bi-chevron-down text-secondary custom-select-icon"></i>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-12">
+                                    <div class="position-relative">
+                                        <select class="form-control">
+                                            <option value="4:00">4:00 Available</option>
+                                            <option value="5:00">5:00 Available</option>
+                                            <option value="6:00">6:00 Available</option>
+                                        </select>
+                                        <i class="bi bi-chevron-down text-secondary custom-select-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-12">
+                                    <textarea name="message" id="message" cols="30" rows="10" class="form-control"
+                                        placeholder="Message"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="row my-4 py-3">
+                                <div class="col-md-6 col-12">
+                                    <button class="btn btn-primary bg-primary border-0 w-100">Book Appointment</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer block -->
+    <footer>
+        <div class="bg-custom-white">
+            <div class="container py-3">
+                <div class="py-4">
+                    <div class="d-flex align-items-center justify-content-between flex-md-row flex-column">
+                        <div>
+                            <h3 class="text-info">Consulting Agency For Your Business</h3>
+                            <p class="text-secondary mb-md-0 mb-5">the quick fox jumps over the lazy dog</p>
+                        </div>
+                        <div class="px-4 mx-3">
+                            <button class="btn btn-primary bg-primary border-0 px-5">Contact Us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-info">
+            <div class="container">
+                <div class="d-flex gap-4 py-5 justify-content-between flex-md-row flex-column">
+                    <div class="text-white">
+                        <h2 class="small-heading">Company Info</h2>
+                        <p><a href="#">About Us</a></p>
+                        <p><a href="#">Carrier</a></p>
+                        <p><a href="#">We are hiring</a></p>
+                        <p><a href="#">Blog</a></p>
+                    </div>
+                    <div class="text-white">
+                        <h2 class="small-heading">Legal</h2>
+                        <p><a href="#">About Us</a></p>
+                        <p><a href="#">Carrier</a></p>
+                        <p><a href="#">We are hiring</a></p>
+                        <p><a href="#">Blog</a></p>
+                    </div>
+                    <div class="text-white">
+                        <h2 class="small-heading">Features</h2>
+                        <p><a href="#">Business Marketing</a></p>
+                        <p><a href="#">User Analytic</a></p>
+                        <p><a href="#">Live Chat</a></p>
+                        <p><a href="#">Unlimited Support</a></p>
+                    </div>
+                    <div class="text-white">
+                        <h2 class="small-heading">Resources</h2>
+                        <p><a href="#">IOS & Android</a></p>
+                        <p><a href="#">Watch a Demo</a></p>
+                        <p><a href="#">Customers</a></p>
+                        <p><a href="#">API</a></p>
+                    </div>
+                    <div class="text-white">
+                        <h2 class="small-heading">Get In Touch</h2>
+                        <div class="d-flex align-items-center gap-2">
+                            <i class="bi bi-telephone fs-4 d-md-block d-none"></i>
+                            <i class="bi bi-telephone text-primary fs-4 d-md-none d-block"></i>
+                            <p class="mb-0">(480) 555-0103</p>
+                        </div>
+                        <div class="d-flex align-items-center gap-2">
+                            <i class="bi bi-geo-alt fs-4 d-md-block d-none"></i>
+                            <i class="bi bi-geo-alt text-primary fs-4 d-md-none d-block"></i>
+                            <p class="mb-0">4517 Washington Ave.</p>
+                        </div>
+                        <div class="d-flex align-items-center gap-2">
+                            <i class="bi bi-envelope fs-4 d-md-block d-none"></i>
+                            <i class="fa-regular fa-paper-plane text-primary fs-6 d-md-none d-block"></i>
+                            <p class="mb-0">debra.holt@example.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-custom-white d-md-block d-none">
+            <div class="container">
+                <div class="py-4">
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <h5 class="text-secondary mb-0">Made With Love By Figmaland All Right Reserved</h5>
+                        </div>
+                        <div class="d-md-flex d-none justify-content-around align-items-center text-primary gap-3 px-5">
+                            <i class="fa-brands fa-facebook fs-4"></i>
+                            <i class="fa-brands fa-instagram fs-4"></i>
+                            <i class="fa-brands fa-twitter fs-4"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-info d-md-none d-block">
+            <div class="container">
+                <div class="py-4">
+                    <div>
+                        <h5 class="text-white mb-5">Made With Love By Figmaland All Right Reserved</h5>
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                        <img src="./assets/icons/facebook.svg" alt="Facebook">
+                        <img src="./assets/icons/instagram.svg" alt="Instagram">
+                        <img src="./assets/icons/twitter.svg" alt="Twitter">
+                        <img src="./assets/icons/youtube.svg" alt="Youtube">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

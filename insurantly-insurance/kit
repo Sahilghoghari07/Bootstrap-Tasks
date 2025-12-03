@@ -1,0 +1,88 @@
+font - Montserrat
+
+font-weight - extra bold(h1), 
+              bold(btn, h2, h3, h4, small-heading), 
+              medium(p, p-lg),
+              semibold(h5, a)
+
+font-size - 58(h1), 
+            40(h2), 
+            24(h3), 
+            16(h4, small-heading), 
+            20(p-lg), 
+            14(h5, p, a, btn)
+
+line-height - 80(h1), 
+              57(h2), 
+              32(h3), 
+              24(small-heading, h4, h5, a), 
+              30(p-lg), 
+              22(btn), 
+              20(p)
+
+letter-spacing - 0.1(small-heading, h3, h4), 
+                 0.2(h1, h2, h5, p, a, btn)
+
+color:
+primary button - 35, 165, 240    #23A6F0    override
+bg info - 37, 43, 66             #252B42    override
+bg skyblue - 142, 194, 242       #8EC2F2    custom
+danger - 231, 124, 64            #E77C40    override
+success - 45, 192, 113           #2DC071    override
+bg muted - 189, 189, 189         #BDBDBD    custom
+text-secondary - 115, 115, 115   #737373    override
+warning - 243, 205, 3            #F3CD03    override
+bg-custom-white - 250, 250, 250  #FAFAFA    custom
+
+
+h2 = small-heading(box, contact, footer)
+
+m:
+<i class="fa-solid fa-magnifying-glass"></i>
+<i class="bi bi-cart3"></i>
+<i class="bi bi-filter-right"></i>
+<i class="fa-solid fa-xmark"></i>
+
+
+
+
+<div class="container">
+                <a href="./index.html" class="navbar-brand">
+                    <h3 class="text-white">BrandName</h3>
+                </a>
+
+                <div class="d-md-none d-flex align-items-center gap-4 text-white">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="bi bi-cart3"></i>
+                    <button class="" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggle"
+                        aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="bi bi-filter-right"></i>
+                    </button>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbarToggle">
+                    <div class="me-md-auto ms-md-5 text-center">
+                        <ul class="navbar-nav mx-auto mb-2 mb-md-0 gap-4">
+                            <li class="nav-item">
+                                <a href="./index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#Product">Product</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#Pricing">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#Contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="d-md-flex d-none gap-5 align-items-center ms-auto">
+                        <a href="#">Login</a>
+                        <a href="#" class="btn btn-primary bg-primary border-0">Become a member
+                            <i class="fa-solid fa-arrow-right ms-3"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>

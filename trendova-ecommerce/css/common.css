@@ -1,0 +1,81 @@
+@import url("./fonts.css");
+
+/* common property */
+
+* {
+  -webkit-user-drag: none;
+}
+
+:root {
+  --bs-secondary-rgb: 240, 240, 240;
+}
+
+.breadcrumb {
+  --bs-breadcrumb-divider: ">";
+}
+
+body {
+  font-family: "Satoshi", "sans-serif";
+}
+
+h1,
+h2 {
+  font-family: "Integral CF", "sans-serif";
+}
+
+.logo {
+  max-height: 32px;
+}
+
+.btn-dark {
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.btn-dark::before {
+  content: "";
+  height: 100%;
+  width: 0%;
+  top: 0;
+  left: 0;
+  border-radius: 50rem;
+  display: block;
+  position: absolute;
+  background-color: #ffffff;
+  transition: width 0.4s ease;
+  z-index: 0;
+}
+
+.btn-dark:hover::before {
+  width: 100%;
+}
+
+.btn-dark:hover {
+  color: #000000;
+}
+
+/* header css */
+
+header p {
+  font-size: 14px;
+}
+
+header .dropdown-menu a:active {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* footer css */
+
+footer {
+  margin-top: 10rem;
+}
+
+footer h2 {
+  font-family: 'Satoshi', 'sans-serif';
+  letter-spacing: 3px;
+}
+
+footer a:hover p {
+  color: #000000;
+}
