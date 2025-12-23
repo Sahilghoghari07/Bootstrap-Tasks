@@ -47,6 +47,19 @@ These tasks help you master Bootstrap structure and responsive utilities.
 
 ---
 
+## 🌐 Live Demos
+
+- Task 1 – Insurance  
+  https://sahilghoghari07.github.io/Bootstrap-Tasks/insurantly-insurance/
+
+- Task 2 – E-commerce  
+  https://sahilghoghari07.github.io/Bootstrap-Tasks/trendova-ecommerce/
+  
+- Task 3 – w3school template
+  https://sahilghoghari07.github.io/Bootstrap-Tasks/trendova-ecommerce/
+
+---
+
 ## ▶️ How to View the Projects
 
 1. Clone this repository:
