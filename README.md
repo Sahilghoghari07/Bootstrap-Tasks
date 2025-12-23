@@ -56,7 +56,7 @@ These tasks help you master Bootstrap structure and responsive utilities.
   https://sahilghoghari07.github.io/Bootstrap-Tasks/trendova-ecommerce/
   
 - Task 3 – w3school template
-  https://sahilghoghari07.github.io/Bootstrap-Tasks/trendova-ecommerce/
+  https://sahilghoghari07.github.io/Bootstrap-Tasks/w3school-bootstrap/
 
 ---
 
